@@ -18,7 +18,7 @@ app.use(passport.session());
 
 app.use("/static", express.static("public"));
 
-require('./server/routes')(app, passport);
+// require('./server/routes')(app, passport);
 app.get('/', (req, res) => res.status(200).sendFile(path.join(__dirname + '/index.html')));
 
 

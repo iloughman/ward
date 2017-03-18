@@ -7,7 +7,7 @@ import './css/style.css';
 const Root = () => {
 	return (
 		<div>
-			<p>ward</p>
+			<p>This page is served by react-scripts and webpack</p>
 		</div>
 		// <BrowserRouter>
 		// 	<div>
